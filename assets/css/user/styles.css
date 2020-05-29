@@ -1,0 +1,34 @@
+.bg-r{
+    background-color: red;
+}
+.bg-b{
+    background-color: blue;
+}
+.bg-g{
+    background-color: green;
+}
+.bg-p{
+    background-color: purple;
+}
+
+.mt{
+    padding: 20px;
+}
+.spacing{
+    padding-bottom: 27px;
+}
+.content{
+    position: relative;
+    padding: 10px;
+    border-radius: 7px;
+    background-color: var(--bg-card);
+}
+/* HEADER INFO */
+.h-card{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+.ml{
+    margin-left: 2rem ;
+}

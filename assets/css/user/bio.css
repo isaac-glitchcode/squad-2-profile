@@ -1,0 +1,32 @@
+.bio .content .h-card h2:after{
+    content:"";
+    width: 25px;
+    height: 2px;
+    background-color: var(--element);
+    position: absolute;
+    bottom: 0;
+    left: 15px;
+    border-radius: 50%;
+}
+.bio-box{
+    padding: 30px 0;
+}
+.bio-text >p{
+    color: #bfc9d4;
+    /* line-height:30px; */
+}
+  
+.box-spacing{
+    padding: 20px;
+}
+.skill-info{
+    background: #191e3a;
+    border-radius: 10px;
+    padding: 30px 30px 24px;
+    font-size: 13px;
+    color: #888ea8;;
+}
+.skill-info h5{
+    margin: 0 0 10px 0;
+    font-size: 15px;
+}

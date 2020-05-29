@@ -1,0 +1,92 @@
+/* HEADER INFO */
+
+.h-card>h2{
+    position: relative;
+    color: var(--text);
+    font-size: 20px;
+    margin: 6px 0 0 0;
+    top:-6px
+}
+.user-profile .content .h-card h2:after{
+    content:"";
+    width: 40px;
+    height: 2px;
+    background-color: var(--element);
+    position: absolute;
+    bottom: 1px;
+    left: 15px;
+    border-radius: 50%;
+}
+/* HEADER EDIT */
+.setings-profile{
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    background: linear-gradient(to right, var(--gradient0) 0%, var(--gradient100) 100%);
+    border-radius: 50%;
+}
+
+/* IMG CONTENT */
+.img-content{
+    text-align: center;
+    margin: 20px 0 0 0;
+}
+.img-content>p{
+    margin: 20px 0 40px 0;
+    color: var(--element);
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: .1rem;
+}
+
+/* USER INFO */
+ul>li{
+    list-style: none;
+} 
+.user-info{
+    margin: auto;
+    margin: 35px 1rem;
+}
+.contact-list{
+    margin: auto;
+    transform: translateX(25%);
+    font-size: 15px;
+    font-weight: normal;
+    letter-spacing: .05rem;
+    color: var(--text);
+}
+.contact-list .contact-item{
+    margin-bottom: .3rem;
+}
+.contact-list li>svg,
+.contact-list li>a>svg{
+    margin: 0 1rem 0 0;
+}
+.contact-list a{
+    text-decoration: none;
+    color: var(--element);
+}
+.contact-list a>svg{
+    color: var(--text);
+}
+/* SOCIAL MEDIA */
+.contact-list .contact-item .social{
+    margin-top: 1.5rem;
+}
+.contact-list .contact-item .social .media-item{
+    display: inline-block;
+    margin-left:.5rem ;
+}
+
+.contact-list .contact-item .social .media-item .icon{
+    display: flex;
+    width: 35px;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--text);
+    border-radius: 50%;
+}

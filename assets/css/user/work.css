@@ -1,0 +1,20 @@
+.work-experience .content .h-card h2:after{
+    content:"";
+    width: 160px;
+    height: 2px;
+    background-color: var(--element);
+    position: absolute;
+    bottom: 0;
+    left: 15px;
+    border-radius: 50%;
+}
+.work-experience .timeline .t-item:not(:last-child) .t-icon:after{
+    content: "";
+    width: 0px;
+    height: 80%;
+    align-self: center;
+    position:absolute;
+    border:1px solid #1b2e4b;
+    bottom: -1px;
+    border-radius: 20%;
+}

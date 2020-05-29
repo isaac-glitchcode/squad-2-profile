@@ -1,0 +1,26 @@
+@import url('layouts.css');
+@import url('fonts.css');
+@import url('styles.css');
+@import url('user-profile.css');
+@import url('education.css');
+@import url('work.css');
+@import url('skills.css');
+@import url('bio.css');
+
+:root{
+    --bg-body:#060818;
+    --bg-card:#0e1726;
+    --element:#009688;
+    --text:#bfc9d4;
+    --gradient0:#3cba92;
+    --gradient100:#0ba360;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Quicksand;
+    background-color: var(--bg-body);
+}
